@@ -1,0 +1,15 @@
+！finalproject/
+！finalproject/*
+# 忽略当前目录下的 Debug 文件
+Debug/
+Release/
+*.obj
+x64
+.vs
+#*.exe
+# ! 是不忽略的意思
+!*.sln
+!*.vcxproj
+!*.filters
+#忽略所有 .user 结尾的文件
+*.user

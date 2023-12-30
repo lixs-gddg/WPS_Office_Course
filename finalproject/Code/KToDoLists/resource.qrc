@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/">
+        <file>image/logo.png</file>
+        <file>image/description.png</file>
+        <file>image/group.png</file>
+        <file>image/note.png</file>
+        <file>image/place.png</file>
+        <file>image/remind.png</file>
+        <file>image/time.png</file>
+        <file>image/high.png</file>
+        <file>image/low.png</file>
+        <file>image/mid.png</file>
+        <file>image/null.png</file>
+        <file>image/repeat.png</file>
+    </qresource>
+</RCC>

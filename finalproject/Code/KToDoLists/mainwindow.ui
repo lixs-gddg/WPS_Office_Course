@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>1080</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="pushButton_first">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>100</y>
+      <width>250</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>首页</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_mytodo">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>160</y>
+      <width>250</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>我的待办</string>
+    </property>
+   </widget>
+   <widget class="QStackedWidget" name="stackedWidget_UI">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>20</y>
+      <width>1600</width>
+      <height>1000</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_logo">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>20</y>
+      <width>251</width>
+      <height>67</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">image: url(:/image/logo.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QListView" name="listView">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>-60</y>
+      <width>1920</width>
+      <height>1080</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_group">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>220</y>
+      <width>250</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>分组</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="widget_group" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>290</y>
+      <width>281</width>
+      <height>461</height>
+     </rect>
+    </property>
+    <widget class="QListWidget" name="listWidget_group">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>110</y>
+       <width>251</width>
+       <height>331</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Adobe 黑体 Std R</family>
+       <pointsize>14</pointsize>
+      </font>
+     </property>
+     <item>
+      <property name="text">
+       <string>我的待办</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>70</y>
+       <width>251</width>
+       <height>31</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_addgroup">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>250</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>添加分组</string>
+     </property>
+    </widget>
+   </widget>
+   <zorder>listView</zorder>
+   <zorder>pushButton_first</zorder>
+   <zorder>pushButton_mytodo</zorder>
+   <zorder>stackedWidget_UI</zorder>
+   <zorder>label_logo</zorder>
+   <zorder>pushButton_group</zorder>
+   <zorder>widget_group</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1920</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
